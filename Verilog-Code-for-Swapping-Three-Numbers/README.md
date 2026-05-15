@@ -1,4 +1,34 @@
 # Verilog-Code-for-Swapping-Three-Numbers
+
+Implemented in `swap_blocking.v`. Uses sequential blocking assignments to transfer values.
+
+### By Non-Blocking
+Implemented in `swap_nonblocking.v`. Demonstrates the parallel nature of non-blocking assignments.
+
+### By Blocking (Using same variable)
+Implemented in `blocking_same_var.v`. Illustrates variable race conditions.
+
+### By Non-Blocking (Using same variable)
+Implemented in `nonblocking_same_var.v`. Correct implementation of a circular shift/swap using non-blocking assignments.
+
+## OUTPUT
+### By Blocking
+![WhatsApp Image 2025-04-12 at 14 30 45_6d1f1a5e](https://github.com/user-attachments/assets/b67c3850-404d-48aa-9f7f-eda50588f104)
+### By Non-Blocking
+![WhatsApp Image 2025-04-12 at 14 35 23_9ae2bdca](https://github.com/user-attachments/assets/49476a88-3245-431b-ba8d-101f2e28e644)
+
+### By Blocking(Using same variable)
+![image](https://github.com/user-attachments/assets/c008a671-b5ca-4b4a-bf5d-1aae4f1a171f)
+
+### By Non Blocking(Using same variable)
+![image](https://github.com/user-attachments/assets/43a42c60-dd2c-46cc-8bcb-cbab8f0887d8)
+
+## Conclusion
+In this experiment, a Verilog HDL code for swapping three numbers was designed and successfully simulated. The testbench verified the swapping operation, showing that the values of three input numbers (a, b, and c) were swapped correctly without the use of temporary variables. This experiment demonstrated the effectiveness of Verilog in implementing logical operations and control mechanisms such as swapping values. The simulation results confirm the correct functionality of the design.
+=======
+# Verilog-Code-for-Swapping-Three-Numbers
+## JAGANATHAN K
+## 212223060095
 ## Aim
 To design and simulate a Verilog HDL code for swapping the values of three numbers without using any temporary variables, and verify the correctness of the swapping operation through a testbench using the Vivado 2023.1 simulation environment.
 
